@@ -1,4 +1,5 @@
-
+import Footer from './components/Footer'
+import Footer2 from './components/Footer2'
 import './App.css'
 
 function App() {
@@ -7,7 +8,24 @@ function App() {
   return (
     <>
       <div>
-        <h1>Home</h1>
+          {/* banner container */}
+          <div className='border-2 red'>
+            <div>
+
+            </div>
+
+          </div>
+
+          {/*  body container */}
+          <div>
+
+          </div>
+
+          {/* footer container */}
+          <div>
+            <Footer></Footer>
+            <Footer2></Footer2>
+          </div>
       </div>
      
     </>
